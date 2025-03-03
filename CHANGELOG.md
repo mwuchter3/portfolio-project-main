@@ -23,3 +23,13 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include changeElement(), getElement(), rows(), columns(), elementAdd(), and dotProduct.
+
+## 2025.03.03
+
+### Added Interfaces
+
+- Designed kernel and enhanced interfaces for Matrix component
+
+### Updated
+
+- Changed design to include the kernel interfaace and the enhanced interface.
