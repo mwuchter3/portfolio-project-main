@@ -23,3 +23,13 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include changeElement(), getElement(), rows(), columns(), elementAdd(), and dotProduct.
+
+## 2025.03.24
+
+### Added
+
+- Designed abstract class for Matrix component
+
+### Updated
+
+- Changed design to include the implementation of the secondary methods. No new methods and no methods removed from original plan. All methods were able to be implemented, and no new need for any more methods (yet).
