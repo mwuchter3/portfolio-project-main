@@ -1,4 +1,4 @@
-public interface MatrixKernel extends Standard {
+public interface MatrixKernel extends Standard<Matrix> {
 
     /**
      * Changes the entry at the specified row and column to the given value.
