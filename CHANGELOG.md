@@ -24,12 +24,4 @@ the following form: YYYY.0M.0D.
 
 - Changed design to include changeElement(), getElement(), rows(), columns(), elementAdd(), and dotProduct.
 
-## 2025.04.08
 
-### Added
-
-- Designed kernel implementation for Matrix1L component
-
-### Updated
-
-- Changed design to include the implementation of standard methods and the kernal methods.
