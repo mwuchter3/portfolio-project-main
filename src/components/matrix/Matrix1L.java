@@ -63,7 +63,8 @@ public class Matrix1L extends MatrixSecondary {
      * Sets all entries of this matrix to zero.
      *
      * @updates this
-     * @ensures (\forall int i, j; 0 <= i < rows() && 0 <= j < columns(); getEntry(i,j) == 0.0)
+     * @ensures for all int i, j; 0 <= i < rows() && 0 <= j < columns();
+     * getEntry(i,j) == 0.0
      */
     public void clear() {
         for (int i = 0; i < this.rows(); i++) {
@@ -132,10 +133,11 @@ public class Matrix1L extends MatrixSecondary {
      * Returns the number of columns.
      *
      * @return number of columns
-     * @ensures rep.length == 0 ? \result = 0 : \result = rep[0].length
+     * @ensures result = rep[0].length
      */
     @Override
     public int columns() {
-        return this.rep.length == 0 ? 0 : this.rep[0].length;
+        return this.rep[0].length;
     }
 }
+

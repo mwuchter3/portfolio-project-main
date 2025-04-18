@@ -122,3 +122,4 @@ public class MatrixSecondaryTest {
         assertEquals(6, v.getEntry(2, 0), 0.0);
     }
 }
+
