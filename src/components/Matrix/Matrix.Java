@@ -1,3 +1,5 @@
+package components.matrix;
+
 public interface Matrix extends MatrixKernel {
 
     /**
@@ -28,7 +30,7 @@ public interface Matrix extends MatrixKernel {
      * @requires columns() == mtrx.rows()
      * @ensures this.rows() == rows() and result.columns() == mtrx.columns(), a matrix following matrix mathmatical matrix multiplication.
      */
-    MatrixEnhanced matrixMultiply(MatrixKernel mtrx);
+    Matrix matrixMultiply(MatrixKernel mtrx);
 
     /**
      * Computes the dot product of this matrix and another matrix by summing all
@@ -49,5 +51,5 @@ public interface Matrix extends MatrixKernel {
      * @requires rows() == 3 and columns() == 1 and mtrx.rows() == 3 and mtrx.columns() == 1
      * @ensures crossProduct.rows() == 3 and crossProduct.columns() == 1 and crossProduct follows the mathmatical matrix cross product.
      */
-    MatrixEnhanced crossProduct(MatrixKernel mtrx);
+    Matrix crossProduct(MatrixKernel mtrx);
 }
