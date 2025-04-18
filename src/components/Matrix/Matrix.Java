@@ -1,3 +1,8 @@
+package components.matrix;
+
+/**
+ * Matrix Interface.
+ */
 public interface Matrix extends MatrixKernel {
 
     /**
@@ -6,7 +11,8 @@ public interface Matrix extends MatrixKernel {
      * @param mtrx the matrix to add
      * @requires mtrx.rows() == rows() and mtrx.columns() == columns()
      * @updates this
-     * @ensures this.getEntry(i, j) == (this.getEntry(i, j)) + mtrx.getEntry(i, j) for all is and js.
+     * @ensures this.getEntry(i, j) == (this.getEntry(i, j)) + mtrx.getEntry(i, j)
+     *  for all is and js.
      */
     void elementAdd(MatrixKernel mtrx);
 
@@ -16,7 +22,8 @@ public interface Matrix extends MatrixKernel {
      * @param mtrx the matrix to multiply
      * @requires mtrx.rows() == rows() and mtrx.columns() == columns()
      * @updates this
-     * @ensures this.getEntry(i, j) == (this.getEntry(i, j)) * mtrx.getEntry(i, j) for all is and js.
+     * @ensures this.getEntry(i, j) == (this.getEntry(i, j)) * mtrx.getEntry(i, j)
+     *  for all is and js.
      */
     void elementMultiply(MatrixKernel mtrx);
 
@@ -26,9 +33,10 @@ public interface Matrix extends MatrixKernel {
      * @param mtrx the matrix to multiply with
      * @return a new matrix representing the product
      * @requires columns() == mtrx.rows()
-     * @ensures this.rows() == rows() and result.columns() == mtrx.columns(), a matrix following matrix mathmatical matrix multiplication.
+     * @ensures this.rows() == rows() and result.columns() == mtrx.columns(),
+     * a matrix following matrix mathmatical matrix multiplication.
      */
-    MatrixEnhanced matrixMultiply(MatrixKernel mtrx);
+    Matrix matrixMultiply(MatrixKernel mtrx);
 
     /**
      * Computes the dot product of this matrix and another matrix by summing all
@@ -37,7 +45,8 @@ public interface Matrix extends MatrixKernel {
      * @param mtrx the matrix to add element-wise
      * @return the sum of all entries after addition
      * @requires mtrx.rows() == rows() and mtrx.columns() == columns()
-     * @ensures dotProduct is the sum of (this.getEntry(i, j) + mtrx.getEntry(i, j)) for all is and js
+     * @ensures dotProduct is the sum of (this.getEntry(i, j) + mtrx.getEntry(i, j))
+     *  for all is and js
      */
     double dotProduct(MatrixKernel mtrx);
 
@@ -46,8 +55,10 @@ public interface Matrix extends MatrixKernel {
      *
      * @param mtrx the matrix (vector) to compute the cross product with
      * @return a new matrix representing the cross product
-     * @requires rows() == 3 and columns() == 1 and mtrx.rows() == 3 and mtrx.columns() == 1
-     * @ensures crossProduct.rows() == 3 and crossProduct.columns() == 1 and crossProduct follows the mathmatical matrix cross product.
+     * @requires rows() == 3 and columns() == 1 and mtrx.rows() == 3
+     * and mtrx.columns() == 1
+     * @ensures crossProduct.rows() == 3 and crossProduct.columns() == 1
+     * and crossProduct follows the mathmatical matrix cross product.
      */
-    MatrixEnhanced crossProduct(MatrixKernel mtrx);
+    Matrix crossProduct(MatrixKernel mtrx);
 }

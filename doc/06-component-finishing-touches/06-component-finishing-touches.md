@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Max Wuchter**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
+- **Wuchter.3**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
+- **4/18**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
 
 ## Assignment Overview
 
@@ -307,18 +307,18 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I think I understand software development a decent bit better. I think that navigating VS code, and using the ChannelLog, and doing every except the coding was the hardest part by far. Writing the code was very easy compared to dealing with how VS code works.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+Yes, it showed I have no clue how to actually make a full program. I do not understand how to get files to work with each other. I do not understand how to get JUnit into the files. I addressed these gaps by lots of google searches.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+I have learned there is so much more that goes into software developement than just writing code. I enjoy software development less than I did before, but it is still enjoyable. I hope that using VS code becomes easier, so that I do not have to troublehoot bugs for hours. That is why it is less enjoyable.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,25 +326,31 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I learned how to organize files into a project in VS Code, link classes so they compile together, set up and run JUnit tests, and search effectively for solutions online.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+- Organized Java project structure and managed dependencies in VS Code
+
+- Configured and executed JUnit test suites for automated testing
+
+- Utilized online research and documentation to solve integration challenges
+
+- Demonstrated self‑directed learning in configuring development tools
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+Working on this project showed me that real software work involves many hidden steps. I enjoy writing code less than I did, because setup and tooling can be frustrating. Still, I’m curious enough to keep improving, and I want to see if it gets easier with practice.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+To keep moving forward, I can follow a VS Code Java tutorial series, build a small end‑to‑end Java app, and practice adding new libraries. I often try to contact my cousin for help because he has been coding a long time. I can also try to find solutions online.
 
 ### Changelog
 
