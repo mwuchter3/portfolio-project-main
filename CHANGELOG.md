@@ -24,23 +24,33 @@ the following form: YYYY.0M.0D.
 
 - Changed design to include changeElement(), getElement(), rows(), columns(), elementAdd(), and dotProduct.
 
-## 2025.03.24
-
-### Added
-
-- Designed abstract class for Matrix component
-
-### Updated
-
-- Changed design to include the implementation of the secondary methods. No new methods and no methods removed from original plan. All methods were able to be implemented, and no new need for any more methods (yet).
-
 ## 2025.03.03
 
 ### Added Interfaces
 
 - Designed kernel and enhanced interfaces for Matrix component
 
-### Updated
+### Updated Kernal Interface
 
 - Changed design to include the kernel interfaace and the enhanced interface.
 
+## 2025.03.24
+
+### Added
+
+- Designed abstract class for Matrix component
+
+### Updated Implementation
+
+- Changed design to include the implementation of the secondary methods. No new methods and no methods removed from original plan. All methods were able to be implemented, and no new need for any more methods (yet).
+
+## 2025.04.17
+
+### Added Test Suite
+
+- Designed test suite for Matrix component
+- Designed two different use cases for Matrix component
+
+### Updated Tests
+
+- Changed design to include proper functionallity between interfaces and implementations.

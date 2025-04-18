@@ -6,7 +6,7 @@ package components.matrix;
  * @convention All rows in rep have the same length.
  * @correspondence this = matrix of size rows()×columns(), entry (i,j)=rep[i][j]
  */
-public final class Matrix1L extends MatrixSecondary {
+public class Matrix1L extends MatrixSecondary {
 
     /** Representation of this matrix. */
     private double[][] rep;

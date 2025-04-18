@@ -5,9 +5,6 @@ import static org.junit.Assert.*;
 
 public class MatrixSecondaryTest {
 
-    /**
-     * Helper to build a Matrix from a 2D array.
-     */
     private Matrix build(double[][] data) {
         int r = data.length;
         int c = data[0].length;

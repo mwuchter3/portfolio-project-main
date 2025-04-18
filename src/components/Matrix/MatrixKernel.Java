@@ -1,5 +1,7 @@
 package components.matrix;
 
+import components.standard.Standard;
+
 public interface MatrixKernel extends Standard<Matrix> {
 
     /**

@@ -78,8 +78,6 @@ template.
 
 ## Next Steps
 
-<!-- TODO: navigate to part 1 of the portfolio project and delete this comment -->
-
 Now that you have everything setup, you can begin crafting your component. There
 will be deadlines for each step in Carmen, but you're free to complete each step
 as early as you'd like. To start, you'll want to visit the [doc](doc/) directory
